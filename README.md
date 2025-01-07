@@ -1,5 +1,5 @@
 # Pest Invasion
-game PestInvasion adalah game bertema tumbuhan. mekanisme game ini mirip seperti Plant Vs Zombie. game ini dibuat sebagai bagian dari projek akhir dalam mata kuliah pemrograman berbasis objek (PBO) di Universitas Pendidikan Indonesia.
+game PestInvasion adalah game bertema tumbuhan. mekanisme game ini mirip seperti Plant Vs Zombie. game ini dibuat sebagai bagian dari projek akhir dalam mata kuliah pemrograman berbasis objek (PBO) di Universitas Pendidikan Indonesia./n
 Kelompok 2 :
 1. Ahmad Yasin Firmansyah
 2. Andhika Pratama
