@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="325.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.wkwk.GameLoseController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1024.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/gameover.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnYes" fitHeight="125.0" fitWidth="125.0" layoutX="325.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/yes.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnNo" fitHeight="125.0" fitWidth="125.0" layoutX="450.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/no.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
