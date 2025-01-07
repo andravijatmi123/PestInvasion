@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.wkwk.LiatInfoController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1024.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/zzz.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="PlantBtn" fitHeight="200.0" fitWidth="200.0" layoutX="291.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/PlantIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="PestBtn" fitHeight="200.0" fitWidth="200.0" layoutX="542.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/PestIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backBtn" fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/backbutton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="353.0" layoutY="391.0" prefHeight="56.0" prefWidth="75.0" text="Plant" textAlignment="CENTER" textFill="#f8f6f6">
+         <font>
+            <Font name="Arial Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="608.0" layoutY="391.0" prefHeight="56.0" prefWidth="67.0" text="Pest" textAlignment="CENTER" textFill="#f8f6f6">
+         <font>
+            <Font name="Arial Bold Italic" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
